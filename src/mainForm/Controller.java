@@ -4,6 +4,7 @@ import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
@@ -22,7 +23,8 @@ public class Controller {
     private  Button show_devises;
     @FXML
     private  Button buttonExit;
-
+    @FXML
+    private ListView listViewProcessor;
 
 
     public void initialize(){
