@@ -8,12 +8,11 @@ public interface InformationCompInterface {
     String getClockSpeedProcessor();
     String getArchitectureProcessor();
     String getCountCoreProcessor();
+    String getLev2CacheProcessor();
+    String getLev3CacheProcessor();
     String getSizeMemory();
-    String getBusyMemory();
     String getFreeMemory();
-    String getLoadingMemory();
     String getTypeMempry();
-    String getSpeedMemory();
     String getTypeGraphic();
     String getCapacityGraphic();
     String getTypeTiresGraphic();

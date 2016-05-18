@@ -28,22 +28,6 @@ public class ClassTestClass implements ListViewInterface {
     }
 
 
-    public List get(){
-        return  dataList;
-    }
-
-
-
-
-
- //   List<Data> title = new ArrayList<>();
-
- //   for (int i = 0; i<list.size(); i++){
-
-  //      if()
-  //          title.add(list.get(i));
- //   }
-
 
     @Override
     public List<String> getTitle_list_proc() {
