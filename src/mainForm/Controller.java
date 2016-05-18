@@ -12,19 +12,28 @@ import javafx.stage.Stage;
 
 public class Controller {
     @FXML
-    private Button show_data_processor;
+    private ListView title_list_proc;
     @FXML
-    private Button show_data_memory;
+    private ListView desc_list_proc;
     @FXML
-    private  Button show_data_graphic;
+    private  ListView title_list_memory;
     @FXML
-    private  Button show_data_drives;
+    private  ListView desc_list_memory;
     @FXML
-    private  Button show_devises;
+    private  ListView title_list_graphic;
     @FXML
-    private  Button buttonExit;
+    private  ListView desc_list_graphic;
     @FXML
-    private ListView listViewProcessor;
+    private ListView title_list_drives;
+    @FXML
+    private ListView desc_list_drives;
+    @FXML
+    private ListView title_list_device;
+    @FXML
+    private ListView desc_list_devive;
+    @FXML
+    private Button buttonExit;
+
 
 
     public void initialize(){
@@ -37,41 +46,8 @@ public class Controller {
             }
         });
 
-        show_data_drives.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent event) {
-                monitooring.getDrives();
-            }
-        });
-
-        show_data_graphic.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent event) {
-                monitooring.getGraphic();
-            }
-        });
-
-        show_data_memory.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent event) {
-                monitooring.getMemory();
-            }
-        });
-
-        show_data_processor.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent event) {
-                monitooring.getProcessor();
-            }
-        });
-
-        show_devises.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent event) {
-                monitooring.getDevises();
-            }
-        });
-        listViewProcessor.setAccessibleText("аплвалдп");
+        title_list_proc.edit(1);
+     //   title_list_proc.
 
 
     }
