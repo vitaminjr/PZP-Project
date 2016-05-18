@@ -71,6 +71,7 @@ public class Controller {
                 monitooring.getDevises();
             }
         });
+        listViewProcessor.setAccessibleText("аплвалдп");
 
 
     }
