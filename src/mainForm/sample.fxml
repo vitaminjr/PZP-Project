@@ -27,7 +27,7 @@
                         <FlowPane layoutX="-1.0" prefHeight="299.0" prefWidth="931.0">
                            <children>
                               <Button fx:id="show_data_processor" mnemonicParsing="false" prefHeight="56.0" prefWidth="958.0" text="Показати" />
-                              <ListView prefHeight="467.0" prefWidth="949.0" />
+                              <ListView fx:id="listViewProcessor" prefHeight="467.0" prefWidth="949.0" />
                            </children>
                            <opaqueInsets>
                               <Insets left="100.0" />
