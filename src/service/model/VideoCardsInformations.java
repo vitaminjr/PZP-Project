@@ -40,16 +40,16 @@ public class VideoCardsInformations {
                         if (videoCard != null)
                             videoCards.add(videoCard);
                         videoCard = new VideoCard();
-                        videoCard.cardName = line.trim();
+                        videoCard.cardName = line.substring(line.indexOf("Card name: ") + "Card name: ".length()).trim();
                     }
                     else if (line.trim().startsWith("Manufacturer")){
-                        videoCard.manufacturer = line.trim();
+                        videoCard.manufacturer = line.substring(line.indexOf("Manufacturer: ") + "Manufacturer: ".length()).trim();
                     }
                     else if (line.trim().startsWith("Chip type")){
-                        videoCard.chipset = line.trim();
+                        videoCard.chipset = line.substring(line.indexOf("Chip type:") + "Chip type: ".length()).trim();
                     }
                     else if (line.trim().startsWith("Shared Memory")){
-                        videoCard.memory = line.trim();
+                        videoCard.memory = line.substring(line.indexOf("Shared Memory:") + "Shared Memory: ".length()).trim();
                     }
 
                     if (line.trim().startsWith("Sound Devices")){

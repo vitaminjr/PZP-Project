@@ -24,7 +24,6 @@ public class HardDisksInformation {
 
     public static HardDisksInformation generate(){
         List<HardDisk> hardDisks = new ArrayList<>();
-
         try {
             String filePath = "./foo.txt";
             // Use "dxdiag /t" variant to redirect output to a given file
@@ -36,33 +35,34 @@ public class HardDisksInformation {
             String line;
             boolean isDisplay = false;
             HardDisk hardDisk = null;
-            String previousModel = "";
-            Map<String, HardDisk> hardDiskMap = new HashMap<>();
             while((line = br.readLine()) != null){
                 if (isDisplay){
-                    if(line.trim().startsWith("Model")){
-                        HardDisk hardDisk1 = hardDiskMap.get(line.trim());
-                        if (hardDisk == null){
-                            hardDisk = new HardDisk();
-                            hardDisk.name = line.trim();
-                            hardDiskMap.put(hardDisk.name, hardDisk);
+                    if(line.trim().startsWith("Drive")){
+                        if (hardDisk != null && hardDisk.getFreeSize() != null && hardDisk.getTotalSize() != null){
+                            hardDisks.add(hardDisk);
                         }
+
+                        hardDisk = new HardDisk();
+                        hardDisk.disks = line.substring(line.indexOf("Drive:") + "Drive: ".length()).trim();
                     }
                     else if (line.trim().startsWith("Free Space")){
-                        if (hardDisk == null){
-                            hardDisk = new HardDisk();
-                            hardDiskMap.put(hardDisk.name, hardDisk);
+                        if (hardDisk != null){
+                            hardDisk.freeSize = line.substring(line.indexOf("Free Space:") + "Free Space: ".length()).trim();
                         }
-                        hardDisk.freeSize += Float.valueOf(line.trim().substring(line.trim().indexOf("Free Space:") + "Free Space: ".length(), line.length() - 3));
                     }
-                    else if (line.trim().startsWith("Chip type")){
-//                        hardDisk.chipset = line.trim();
+                    else if (line.trim().startsWith("Total Space")){
+                        if (hardDisk != null){
+                            hardDisk.totalSize = line.substring(line.indexOf("Total Space:") + "Total Space: ".length()).trim();
+                        }
                     }
-                    else if (line.trim().startsWith("Shared Memory")){
-                        hardDisk.disks = line.trim();
+                    else if (line.trim().startsWith("Model")){
+                        if (hardDisk != null){
+                            hardDisk.name = line.substring(line.indexOf("Model:") + "Model: ".length()).trim();
+                        }
                     }
-
-                    if (line.trim().startsWith("System Devices")){
+                    else if (line.trim().startsWith("System Devices")){
+                        if (hardDisk != null && hardDisk.getFreeSize() != null && hardDisk.getTotalSize() != null)
+                            hardDisks.add(hardDisk);
                         break;
                     }
                 } else {
@@ -79,10 +79,10 @@ public class HardDisksInformation {
     }
 
     public static class HardDisk{
-        String name;
-        float totalSize;
-        float freeSize;
-        String disks;
+        private String name;
+        private String totalSize;
+        private String freeSize;
+        private String disks;
 
         public String getName() {
             return name;
@@ -92,19 +92,19 @@ public class HardDisksInformation {
             this.name = name;
         }
 
-        public float getTotalSize() {
+        public String getTotalSize() {
             return totalSize;
         }
 
-        public void setTotalSize(float totalSize) {
+        public void setTotalSize(String totalSize) {
             this.totalSize = totalSize;
         }
 
-        public float getFreeSize() {
+        public String getFreeSize() {
             return freeSize;
         }
 
-        public void setFreeSize(float freeSize) {
+        public void setFreeSize(String freeSize) {
             this.freeSize = freeSize;
         }
 

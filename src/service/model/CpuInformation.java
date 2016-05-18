@@ -73,7 +73,7 @@ public class CpuInformation {
             input.close();
             if (result != null){
                 if (result.contains("L2CacheSize")){
-                    information.l2Cache = result.substring(result.indexOf("L2CacheSize") + "L2CacheSize".length());
+                    information.l2Cache = result.substring(result.indexOf("L2CacheSize") + "L2CacheSize".length()).trim();
                 }
             }
 
@@ -86,7 +86,7 @@ public class CpuInformation {
             input.close();
             if (result != null){
                 if (result.contains("L3CacheSize")){
-                    information.l3Cache = result.substring(result.indexOf("L3CacheSize") + "L3CacheSize".length());
+                    information.l3Cache = result.substring(result.indexOf("L3CacheSize") + "L3CacheSize".length()).trim();
                 }
             }
         } catch (IOException e) {

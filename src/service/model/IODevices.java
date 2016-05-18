@@ -59,7 +59,7 @@ public class IODevices {
             List<String> printers = new ArrayList<>();
             while ((line = input.readLine()) != null) {
                 if (line != null && !line.isEmpty()){
-                    printers.add(line);
+                    printers.add(line.trim());
                 }
             }
             input.close();
@@ -75,7 +75,7 @@ public class IODevices {
             line = input.readLine();
             while ((line = input.readLine()) != null) {
                 if (line != null && !line.isEmpty()){
-                    devices.cdromName = line;
+                    devices.cdromName = line.trim();
                 }
             }
             input.close();

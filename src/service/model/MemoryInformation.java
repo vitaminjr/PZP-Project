@@ -46,7 +46,7 @@ public class MemoryInformation {
             input.close();
             if (result != null){
                 if (result.contains("Product")){
-                    memoryInformation.motherBoardName = result.substring(result.indexOf("Product") + 9);
+                    memoryInformation.motherBoardName = result.substring(result.indexOf("Product") + "Product".length()).trim();
                 }
             }
         } catch (IOException e) {
