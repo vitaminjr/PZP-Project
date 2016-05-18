@@ -1,5 +1,6 @@
 package mainForm;
 
+import Interface.InformationCompInterface;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.Event;
@@ -38,7 +39,7 @@ public class Controller {
     @FXML
     private Button buttonExit;
 
-
+    InformationCompInterface informationCompInterface;
 
     public void initialize(){
         ClassTestClass testClass = new ClassTestClass();
@@ -51,7 +52,6 @@ public class Controller {
                 stage.close();
             }
         });
-
 
 
         ObservableList<String> itemsTitleProc = FXCollections.observableList(testClass.getTitle_list_proc());

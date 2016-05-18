@@ -1,6 +1,7 @@
 package mainForm;
 
 import Interface.ListViewInterface;
+import service.SystemInformationController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,13 +33,14 @@ public class ClassTestClass implements ListViewInterface {
     @Override
     public List<String> getTitle_list_proc() {
         List <String> titleListProc = new ArrayList<>();
-     //   Data
+        titleListProc.add("Назва процесора");
         return titleListProc;
     }
 
     @Override
     public List<String> getDesc_list_proc() {
         List <String> DescListProc = new ArrayList<>();
+        DescListProc.add(SystemInformationController.getInstance().getCpuName());
         return DescListProc;
     }
 

@@ -29,7 +29,6 @@ public class HardDisksInformation {
             String filePath = "./foo.txt";
             // Use "dxdiag /t" variant to redirect output to a given file
             ProcessBuilder pb = new ProcessBuilder("cmd.exe","/c","dxdiag","/t",filePath);
-            System.out.println("-- Executing dxdiag command --");
             Process p = pb.start();
             p.waitFor();
 
@@ -84,8 +83,6 @@ public class HardDisksInformation {
         float totalSize;
         float freeSize;
         String disks;
-
-
 
         public String getName() {
             return name;
