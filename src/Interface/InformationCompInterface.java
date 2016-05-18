@@ -4,11 +4,10 @@ package Interface;
  * Created by vitaminjr on 18.05.16.
  */
 public interface InformationCompInterface {
-    String getTypeProcessor();
-    String getLoadingProcessor();
-    String getSocketProcessor();
-    String getBitProcessor();
-    String getLevCacheProcessor();
+    String getNameProcessor();
+    String getClockSpeedProcessor();
+    String getArchitectureProcessor();
+    String getCountCoreProcessor();
     String getSizeMemory();
     String getBusyMemory();
     String getFreeMemory();

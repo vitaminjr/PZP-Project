@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.media.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
@@ -9,7 +10,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 
-<GridPane alignment="center" hgap="10" prefHeight="608.0" prefWidth="948.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainForm.Controller">
+<GridPane alignment="center" hgap="10" prefHeight="608.0" prefWidth="728.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainForm.Controller">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -18,7 +19,7 @@
       <RowConstraints maxHeight="474.0" minHeight="0.0" prefHeight="44.0" />
    </rowConstraints>
    <children>
-      <TabPane prefHeight="528.0" prefWidth="955.0" tabClosingPolicy="UNAVAILABLE">
+      <TabPane prefHeight="554.0" prefWidth="792.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
           <Tab text="Процесор">
             <content>
@@ -26,8 +27,8 @@
                      <children>
                         <FlowPane layoutX="-1.0" prefHeight="299.0" prefWidth="931.0">
                            <children>
-                              <Button fx:id="show_data_processor" mnemonicParsing="false" prefHeight="56.0" prefWidth="958.0" text="Показати" />
-                              <ListView prefHeight="467.0" prefWidth="949.0" />
+                              <ListView fx:id="title_list_proc" prefHeight="526.0" prefWidth="249.0" />
+                              <ListView fx:id="desc_list_proc" prefHeight="526.0" prefWidth="480.0" />
                            </children>
                            <opaqueInsets>
                               <Insets left="100.0" />
@@ -43,8 +44,8 @@
                      <children>
                         <FlowPane prefHeight="299.0" prefWidth="931.0">
                            <children>
-                              <Button fx:id="show_data_memory" mnemonicParsing="false" prefHeight="56.0" prefWidth="958.0" text="Показати" />
-                              <ListView prefHeight="467.0" prefWidth="949.0" />
+                              <ListView fx:id="title_list_memory" prefHeight="526.0" prefWidth="249.0" />
+                              <ListView fx:id="desc_list_memory" prefHeight="526.0" prefWidth="480.0" />
                            </children>
                            <opaqueInsets>
                               <Insets left="100.0" />
@@ -60,8 +61,8 @@
                      <children>
                         <FlowPane prefHeight="299.0" prefWidth="931.0">
                            <children>
-                              <Button fx:id="show_data_graphic" mnemonicParsing="false" prefHeight="56.0" prefWidth="958.0" text="Показати" />
-                              <ListView prefHeight="467.0" prefWidth="949.0" />
+                              <ListView fx:id="title_list_graphic" prefHeight="526.0" prefWidth="249.0" />
+                              <ListView fx:id="desc_list_graphic" prefHeight="526.0" prefWidth="480.0" />
                            </children>
                            <opaqueInsets>
                               <Insets left="100.0" />
@@ -77,8 +78,8 @@
                      <children>
                         <FlowPane prefHeight="299.0" prefWidth="931.0">
                            <children>
-                              <Button fx:id="show_data_drives" mnemonicParsing="false" prefHeight="56.0" prefWidth="958.0" text="Показати" />
-                              <ListView prefHeight="467.0" prefWidth="949.0" />
+                              <ListView fx:id="title_list_drives" prefHeight="526.0" prefWidth="249.0" />
+                              <ListView fx:id="desc_list_drives" prefHeight="526.0" prefWidth="480.0" />
                            </children>
                            <opaqueInsets>
                               <Insets left="100.0" />
@@ -92,14 +93,14 @@
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="317.0" prefWidth="710.0">
                      <children>
-                        <FlowPane prefHeight="299.0" prefWidth="931.0">
-                           <children>
-                              <Button fx:id="show_devises" mnemonicParsing="false" prefHeight="56.0" prefWidth="958.0" text="Показати" />
-                              <ListView prefHeight="471.0" prefWidth="949.0" />
-                           </children>
+                        <FlowPane layoutY="-2.0" prefHeight="526.0" prefWidth="948.0">
                            <opaqueInsets>
                               <Insets left="100.0" />
                            </opaqueInsets>
+                           <children>
+                              <ListView fx:id="title_list_device" prefHeight="526.0" prefWidth="249.0" />
+                              <ListView fx:id="desc_list_devive" prefHeight="526.0" prefWidth="480.0" />
+                           </children>
                         </FlowPane>
                      </children>
                   </AnchorPane>

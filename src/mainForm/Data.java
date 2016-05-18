@@ -4,17 +4,17 @@ package mainForm;
  * Created by vitaminjr on 18.05.16.
  */
 public class Data {
-    byte idType;
-    String title;
-    String description;
+     private int idType;
+    private String title;
+    private String description;
 
-    public Data(byte idType, String title, String description) {
+    public Data(int idType, String title, String description) {
         this.idType = idType;
         this.title = title;
         this.description = description;
     }
 
-    public byte getIdType() {
+    public int getIdType() {
         return idType;
     }
 
@@ -26,7 +26,7 @@ public class Data {
         return description;
     }
 
-    public void setIdType(byte idType) {
+    public void setIdType(int idType) {
         this.idType = idType;
     }
 
