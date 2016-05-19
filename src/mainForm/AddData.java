@@ -8,20 +8,19 @@ import service.model.HardDisksInformation;
 import service.model.VideoCardsInformations;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by vitaminjr on 18.05.16.
  */
-public class AddData implements ListViewInterface {
+public class AddData {
 
     public AddData(){
     }
 
 
-
-
-    @Override
     public List<String> getTitle_list_proc() {
         List <String> titleListProc = new ArrayList<>();
         titleListProc.add("Назва процесора");
@@ -33,7 +32,6 @@ public class AddData implements ListViewInterface {
         return titleListProc;
     }
 
-    @Override
     public List<String> getDesc_list_proc() {
         List <String> descListProc = new ArrayList<>();
         descListProc.add(SystemInformationController.getInstance().getCpuName());
@@ -45,7 +43,6 @@ public class AddData implements ListViewInterface {
         return descListProc;
     }
 
-    @Override
     public List<String> getTitle_list_memory() {
         List <String> titleListMemory = new ArrayList<>();
         titleListMemory.add("Системна плата");
@@ -54,7 +51,6 @@ public class AddData implements ListViewInterface {
         return titleListMemory;
     }
 
-    @Override
     public List<String> getDesc_list_memory() {
         List <String> DescListMemory = new ArrayList<>();
         DescListMemory.add(SystemInformationController.getInstance().getMotherBoardName());
@@ -63,7 +59,6 @@ public class AddData implements ListViewInterface {
         return DescListMemory;
     }
 
-    @Override
     public List<String> getTitle_list_graphic() {
             List <String> titleListGraphic = new ArrayList<>();
         titleListGraphic.add("Назва відеокарти");
@@ -73,7 +68,6 @@ public class AddData implements ListViewInterface {
         return titleListGraphic;
     }
 
-    @Override
     public List<String> getDesc_list_graphic() {
         List <String> descListGraphic = new ArrayList<>();
         List<VideoCardsInformations.VideoCard> videoCards = SystemInformationController.getInstance().getVideoCards();
@@ -86,7 +80,6 @@ public class AddData implements ListViewInterface {
         return descListGraphic;
     }
 
-    @Override
     public List<String> getTitle_list_drives() {
         List <String> titleListDrives = new ArrayList<>();
         titleListDrives.add("Назва жосткого диску");
@@ -96,7 +89,6 @@ public class AddData implements ListViewInterface {
         return titleListDrives;
     }
 
-    @Override
     public List<String> getDesc_list_drives() {
         List <String> descListDrives = new ArrayList<>();
 
@@ -110,14 +102,13 @@ public class AddData implements ListViewInterface {
         return descListDrives;
     }
 
-    @Override
     public List<String> getTitle_list_device() {
 
         List <String> titleListDevice = new ArrayList<>();
         titleListDevice.add("USB PORT 1");
         titleListDevice.add("USB PORT 2");
         titleListDevice.add("USB PORT 3");
-        titleListDevice.add("CD-ROM");usu
+        titleListDevice.add("CD-ROM");
 
 
 
@@ -125,13 +116,36 @@ public class AddData implements ListViewInterface {
         return titleListDevice;
     }
 
-    @Override
-    public List<String> getDesc_list_device() {
-        List <String> descListDevice = new ArrayList<>();
-       // descListDevice.addAll(SystemInformationController.getInstance().getPrintersName());
-        descListDevice.addAll(SystemInformationController.getInstance().getUsbNames());
-       descListDevice.add(SystemInformationController.getInstance().getCdRom());
+    public Map<Integer,List<String>> getListDevice() {
 
-        return descListDevice;
+        List <String> titleListDevice = new ArrayList<>();
+
+
+        List <String> descListDevice = new ArrayList<>();
+        int i = 1;
+        titleListDevice.add("Printers count:");
+        descListDevice.add(SystemInformationController.getInstance().getPrintersName().size() + "");
+        for (String text : SystemInformationController.getInstance().getPrintersName()){
+            titleListDevice.add(" ");
+            descListDevice.add(text);
+        }
+
+        titleListDevice.add(" ");
+        descListDevice.add(" ");
+        titleListDevice.add("Usb counts:");
+        descListDevice.add(SystemInformationController.getInstance().getUsbNames().size()+"");
+        for (String text : SystemInformationController.getInstance().getUsbNames()){
+            titleListDevice.add(" ");
+            descListDevice.add(text);
+        }
+        titleListDevice.add(" ");
+        descListDevice.add(" ");
+        titleListDevice.add("CD-ROM");
+        descListDevice.add(SystemInformationController.getInstance().getCdRom());
+
+        Map<Integer,List<String>> map = new HashMap<>();
+        map.put(0,titleListDevice);
+        map.put(1,descListDevice);
+       return  map;
     }
 }

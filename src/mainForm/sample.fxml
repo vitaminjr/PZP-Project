@@ -110,6 +110,6 @@
         </tabs>
       </TabPane>
       <Button fx:id="buttonExit" mnemonicParsing="false" prefHeight="36.0" prefWidth="728.0" text="Вихід" GridPane.rowIndex="2" />
-      <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="728.0" text="Згенерувати повний опис системи" GridPane.rowIndex="1" />
+      <Button fx:id="button_Generation" mnemonicParsing="false" prefHeight="51.0" prefWidth="728.0" text="Згенерувати повний опис системи" GridPane.rowIndex="1" />
    </children>
 </GridPane>

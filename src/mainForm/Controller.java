@@ -34,7 +34,8 @@ public class Controller {
     private ListView desc_list_devive;
     @FXML
     private Button buttonExit;
-
+    @FXML
+    private Button button_Generation;
 
     public void initialize(){
         AddData testClass = new AddData();
@@ -45,6 +46,13 @@ public class Controller {
             public void handle(Event event) {
                 Stage stage = (Stage) buttonExit.getScene().getWindow();
                 stage.close();
+            }
+        });
+
+        button_Generation.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+
             }
         });
 
@@ -73,11 +81,8 @@ public class Controller {
         ObservableList<String> itemsDescDrives = FXCollections.observableList(testClass.getDesc_list_drives());
         desc_list_drives.setItems(itemsDescDrives);
 
-        ObservableList<String> itemsTitleDeice = FXCollections.observableList(testClass.getTitle_list_device());
-        title_list_device.setItems(itemsTitleDeice);
-
-        ObservableList<String> itemsDescDevice = FXCollections.observableList(testClass.getDesc_list_device());
-        desc_list_devive.setItems(itemsDescDevice);
+        title_list_device.setItems(FXCollections.observableList(testClass.getListDevice().get(0)));
+        desc_list_devive.setItems(FXCollections.observableList(testClass.getListDevice().get(1)));
 
 
 
