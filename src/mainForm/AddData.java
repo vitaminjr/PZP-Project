@@ -1,7 +1,11 @@
 package mainForm;
 
+
+
 import Interface.ListViewInterface;
 import service.SystemInformationController;
+import service.model.HardDisksInformation;
+import service.model.VideoCardsInformations;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,24 +13,11 @@ import java.util.List;
 /**
  * Created by vitaminjr on 18.05.16.
  */
-public class ClassTestClass implements ListViewInterface {
+public class AddData implements ListViewInterface {
 
-    public ClassTestClass(){
-        addList();
+    public AddData(){
     }
 
-    private List<Data> dataList;
-    private Data data;
-
-
-    public void addList(){
-        dataList = new ArrayList<>();
-        for (int i = 0; i < 100; i++)
-        {
-            data = new Data(i,"zxc","zxc");
-            dataList.add(data);
-        }
-    }
 
 
 
@@ -75,39 +66,72 @@ public class ClassTestClass implements ListViewInterface {
     @Override
     public List<String> getTitle_list_graphic() {
             List <String> titleListGraphic = new ArrayList<>();
+        titleListGraphic.add("Назва відеокарти");
+        titleListGraphic.add("Чіпсет");
+        titleListGraphic.add("Виробник");
+        titleListGraphic.add("Пам’ять");
         return titleListGraphic;
     }
 
     @Override
     public List<String> getDesc_list_graphic() {
-        List <String> DescListGraphic = new ArrayList<>();
-    //    DescListGraphic.add(SystemInformationController.getInstance().getMotherBoardName());
-     //   DescListGraphic.add(SystemInformationController.getInstance().getFullMemory());
-      //  DescListGraphic.add(SystemInformationController.getInstance().getFreeMemory());
-        return DescListGraphic;
+        List <String> descListGraphic = new ArrayList<>();
+        List<VideoCardsInformations.VideoCard> videoCards = SystemInformationController.getInstance().getVideoCards();
+        for (int i = 0; i < videoCards.size() ; i++) {
+            descListGraphic.add(videoCards.get(i).getCardName());
+            descListGraphic.add(videoCards.get(i).getChipset());
+            descListGraphic.add(videoCards.get(i).getManufacturer());
+            descListGraphic.add(videoCards.get(i).getMemory());
+        }
+        return descListGraphic;
     }
 
     @Override
     public List<String> getTitle_list_drives() {
         List <String> titleListDrives = new ArrayList<>();
+        titleListDrives.add("Назва жосткого диску");
+        titleListDrives.add("Диск");
+        titleListDrives.add("Загальний розмір");
+        titleListDrives.add("Вільне місця");
         return titleListDrives;
     }
 
     @Override
     public List<String> getDesc_list_drives() {
-        List <String> DescListDrives = new ArrayList<>();
-        return DescListDrives;
+        List <String> descListDrives = new ArrayList<>();
+
+        List<HardDisksInformation.HardDisk> hardDisks = SystemInformationController.getInstance().getHardDiskList();
+        for (int i = 0; i < hardDisks.size() ; i++) {
+            descListDrives.add(hardDisks.get(i).getName());
+            descListDrives.add(hardDisks.get(i).getDisks());
+            descListDrives.add(hardDisks.get(i).getTotalSize());
+            descListDrives.add(hardDisks.get(i).getFreeSize());
+        }
+        return descListDrives;
     }
 
     @Override
     public List<String> getTitle_list_device() {
+
         List <String> titleListDevice = new ArrayList<>();
+        titleListDevice.add("USB PORT 1");
+        titleListDevice.add("USB PORT 2");
+        titleListDevice.add("USB PORT 3");
+        titleListDevice.add("CD-ROM");usu
+
+
+
+
         return titleListDevice;
     }
 
     @Override
-    public List<String> getDesc_list_devive() {
-        List <String> DescListDevice = new ArrayList<>();
-        return DescListDevice;
+    public List<String> getDesc_list_device() {
+        List <String> descListDevice = new ArrayList<>();
+       // descListDevice.addAll(SystemInformationController.getInstance().getPrintersName());
+        descListDevice.addAll(SystemInformationController.getInstance().getUsbNames());
+       descListDevice.add(SystemInformationController.getInstance().getCdRom());
+
+        return descListDevice;
     }
 }

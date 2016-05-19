@@ -1,7 +1,5 @@
 package Interface;
 
-import javafx.scene.control.ListView;
-
 import java.util.List;
 
 /**
@@ -17,7 +15,7 @@ public interface ListViewInterface {
     List <String> getTitle_list_drives();
     List <String> getDesc_list_drives();
     List <String> getTitle_list_device();
-    List <String> getDesc_list_devive();
+    List <String> getDesc_list_device();
 
 
 

@@ -2,45 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mainForm/HardDisk.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mainForm/VideoCard.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/Interface/InformationCompInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/Interface/ListViewInterface.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/ClassTestClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/Controller$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/DarkTheme.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/sample.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/SystemInformationController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/model/VideoCardsInformations$VideoCard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/.sigar_shellrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-amd64-freebsd-6.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-amd64-linux.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-amd64-solaris.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-ia64-hpux-11.sl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-ia64-linux.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-pa-hpux-11.sl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-ppc-aix-5.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-ppc-linux.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-ppc64-aix-5.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-ppc64-linux.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-s390x-linux.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-sparc-solaris.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-sparc64-solaris.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-universal-macosx.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-universal64-macosx.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-x86-freebsd-5.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-x86-freebsd-6.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-x86-linux.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/libsigar-x86-solaris.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/log4j.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/sigar-amd64-winnt.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/sigar-x86-winnt.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/sigar/sigar.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/usb/hidapi-1.1.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainForm/ClassTestClass.java" afterPath="$PROJECT_DIR$/src/mainForm/ClassTestClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainForm/DarkTheme.css" afterPath="$PROJECT_DIR$/src/mainForm/DarkTheme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainForm/sample.fxml" afterPath="$PROJECT_DIR$/src/mainForm/sample.fxml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PZP_Project/service/TestActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Interface/InformationCompInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mainForm/Data.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mainForm/ClassTestClass.java" afterPath="$PROJECT_DIR$/src/mainForm/AddData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/Controller$1.class" afterPath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/Controller$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/Controller.class" afterPath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PZP_Project/Interface/ListViewInterface.class" afterPath="$PROJECT_DIR$/out/production/PZP_Project/Interface/ListViewInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mainForm/Controller.java" afterPath="$PROJECT_DIR$/src/mainForm/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/DarkTheme.css" afterPath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/DarkTheme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Interface/ListViewInterface.java" afterPath="$PROJECT_DIR$/src/Interface/ListViewInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/TestActivity.java" afterPath="$PROJECT_DIR$/src/service/TestActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/sample.fxml" afterPath="$PROJECT_DIR$/out/production/PZP_Project/mainForm/sample.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/mainForm/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/mainForm/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <caret line="78" column="105" selection-start-line="78" selection-start-column="105" selection-end-line="78" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,25 +103,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassTestClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainForm/ClassTestClass.java">
+      <file leaf-file-name="AddData.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mainForm/AddData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="48" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.2551724">
+              <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SystemInformationController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SystemInformationController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/SystemInformationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0793104">
-              <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="e#2643#2644#0" expanded="true" />
+                <element signature="e#2706#2707#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HardDisksInformation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/model/HardDisksInformation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+              <folding>
+                <element signature="e#3791#3792#0" expanded="true" />
+                <element signature="e#3827#3828#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HardDisk.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainForm/HardDisk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoCardsInformations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/model/VideoCardsInformations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="108" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoCard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainForm/VideoCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,69 +181,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HardDisksInformation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/model/HardDisksInformation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ListViewInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Interface/ListViewInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainForm/Data.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainForm/sample.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.366667">
-              <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InformationCompInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interface/InformationCompInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -265,11 +230,16 @@
         <option value="$PROJECT_DIR$/src/mainForm/Data.java" />
         <option value="$PROJECT_DIR$/src/mainForm/AllMonitooring.java" />
         <option value="$PROJECT_DIR$/src/Interface/ListViewInterface.java" />
-        <option value="$PROJECT_DIR$/src/mainForm/Controller.java" />
-        <option value="$PROJECT_DIR$/src/mainForm/Main.java" />
         <option value="$PROJECT_DIR$/src/Interface/InformationCompInterface.java" />
         <option value="$PROJECT_DIR$/src/mainForm/DarkTheme.css" />
         <option value="$PROJECT_DIR$/src/mainForm/ClassTestClass.java" />
+        <option value="$PROJECT_DIR$/src/mainForm/ClassTest.java" />
+        <option value="$PROJECT_DIR$/src/service/TestActivity.java" />
+        <option value="$PROJECT_DIR$/src/mainForm/Main.java" />
+        <option value="$PROJECT_DIR$/src/mainForm/Controller.java" />
+        <option value="$PROJECT_DIR$/src/mainForm/VideoCard.java" />
+        <option value="$PROJECT_DIR$/src/mainForm/HardDisk.java" />
+        <option value="$PROJECT_DIR$/src/mainForm/AddData.java" />
       </list>
     </option>
   </component>
@@ -683,11 +653,12 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249375" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15167095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -698,7 +669,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -721,15 +691,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/mainForm/Controller.java</url>
-          <line>27</line>
-          <properties field="title_list_graphic" class="mainForm.Controller" />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -994,44 +956,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainForm/Data.java">
+    <entry file="file://$PROJECT_DIR$/src/service/TestActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainForm/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interface/ListViewInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,24 +969,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.366667">
+        <state vertical-scroll-proportion="-8.133333">
           <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/model/HardDisksInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interface/InformationCompInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1070,33 +983,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainForm/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/mainForm/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainForm/ClassTestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/Interface/ListViewInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="48" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-          </folding>
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/model/VideoCardsInformations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="108" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/SystemInformationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0793104">
-          <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#2643#2644#0" expanded="true" />
+            <element signature="e#2706#2707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainForm/VideoCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/model/HardDisksInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+          <folding>
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3827#3828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainForm/HardDisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainForm/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="105" selection-start-line="78" selection-start-column="105" selection-end-line="78" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainForm/AddData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2551724">
+          <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

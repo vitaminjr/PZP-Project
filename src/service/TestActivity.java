@@ -6,6 +6,7 @@ import service.model.VideoCardsInformations;
 /**
  * Created by vovaz on 18.05.2016.
  */
+/*
 public class TestActivity {
     public static void main(String[] args) {
         System.out.println(SystemInformationController.getInstance().getCpuArch());
@@ -43,3 +44,4 @@ public class TestActivity {
         }
     }
 }
+*/
