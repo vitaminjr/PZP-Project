@@ -59,25 +59,29 @@ public class AddData {
         return DescListMemory;
     }
 
-    public List<String> getTitle_list_graphic() {
-            List <String> titleListGraphic = new ArrayList<>();
-        titleListGraphic.add("Назва відеокарти");
-        titleListGraphic.add("Чіпсет");
-        titleListGraphic.add("Виробник");
-        titleListGraphic.add("Пам’ять");
-        return titleListGraphic;
-    }
-
-    public List<String> getDesc_list_graphic() {
+    public Map<Integer, List<String>> getGraphicsList(){
+        List <String> titleListGraphic = new ArrayList<>();
         List <String> descListGraphic = new ArrayList<>();
         List<VideoCardsInformations.VideoCard> videoCards = SystemInformationController.getInstance().getVideoCards();
+        titleListGraphic.add("Кількість відеокарт:");
+        descListGraphic.add(videoCards.size()+"");
         for (int i = 0; i < videoCards.size() ; i++) {
+            titleListGraphic.add("Назва відеокарти");
+            titleListGraphic.add("Чіпсет");
+            titleListGraphic.add("Виробник");
+            titleListGraphic.add("Пам’ять");
+            titleListGraphic.add(" ");
             descListGraphic.add(videoCards.get(i).getCardName());
             descListGraphic.add(videoCards.get(i).getChipset());
             descListGraphic.add(videoCards.get(i).getManufacturer());
             descListGraphic.add(videoCards.get(i).getMemory());
+            descListGraphic.add(" ");
         }
-        return descListGraphic;
+
+        Map<Integer, List<String>> map = new HashMap<>();
+        map.put(0, titleListGraphic);
+        map.put(1, descListGraphic);
+        return map;
     }
 
     public List<String> getTitle_list_drives() {

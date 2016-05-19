@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 5/19/2016, 08:15:55
+      Time of this report: 5/19/2016, 08:22:32
              Machine name: DESKTOP-RBK501Q
          Operating System: Windows 10 Домашняя для одного языка 64-bit (10.0, Build 10586) (10586.th2_release_sec.160422-1850)
                  Language: Ukrainian (Regional Setting: Ukrainian)
@@ -11,7 +11,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz (4 CPUs), ~2.6GHz
                    Memory: 8192MB RAM
       Available OS Memory: 8086MB RAM
-                Page File: 4746MB used, 4619MB available
+                Page File: 4386MB used, 4979MB available
               Windows Dir: C:\Windows
           DirectX Version: 12
       DX Setup Parameters: Not found

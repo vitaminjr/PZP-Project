@@ -103,11 +103,8 @@ public class Controller {
         ObservableList<String> itemsDescMemory = FXCollections.observableList(testClass.getDesc_list_memory());
         desc_list_memory.setItems(itemsDescMemory);
 
-        ObservableList<String> itemsTitleGraphic = FXCollections.observableList(testClass.getTitle_list_graphic());
-        title_list_graphic.setItems(itemsTitleGraphic);
-
-        ObservableList<String> itemsDescGraphic = FXCollections.observableList(testClass.getDesc_list_graphic());
-        desc_list_graphic.setItems(itemsDescGraphic);
+        title_list_graphic.setItems(FXCollections.observableList(testClass.getGraphicsList().get(0)));
+        desc_list_graphic.setItems(FXCollections.observableList(testClass.getGraphicsList().get(1)));
 
         ObservableList<String> itemsTitleDrives = FXCollections.observableList(testClass.getTitle_list_drives());
         title_list_drives.setItems(itemsTitleDrives);
