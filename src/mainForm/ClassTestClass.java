@@ -34,25 +34,41 @@ public class ClassTestClass implements ListViewInterface {
     public List<String> getTitle_list_proc() {
         List <String> titleListProc = new ArrayList<>();
         titleListProc.add("Назва процесора");
+        titleListProc.add("Архітектура процесора");
+        titleListProc.add("Тактова частота");
+        titleListProc.add("Кількість ядер");
+        titleListProc.add("Кеш 2-го рівня");
+        titleListProc.add("Кеш 3-го рівня");
         return titleListProc;
     }
 
     @Override
     public List<String> getDesc_list_proc() {
-        List <String> DescListProc = new ArrayList<>();
-        DescListProc.add(SystemInformationController.getInstance().getCpuName());
-        return DescListProc;
+        List <String> descListProc = new ArrayList<>();
+        descListProc.add(SystemInformationController.getInstance().getCpuName());
+        descListProc.add(SystemInformationController.getInstance().getCpuArch());
+        descListProc.add(SystemInformationController.getInstance().getCpuMhz());
+        descListProc.add(SystemInformationController.getInstance().getCpuCores());
+        descListProc.add(SystemInformationController.getInstance().getCpuL2Cahce());
+        descListProc.add(SystemInformationController.getInstance().getCpuL3Cahce());
+        return descListProc;
     }
 
     @Override
     public List<String> getTitle_list_memory() {
         List <String> titleListMemory = new ArrayList<>();
+        titleListMemory.add("Системна плата");
+        titleListMemory.add("Повна ОЗУ");
+        titleListMemory.add("Вільна ОЗУ");
         return titleListMemory;
     }
 
     @Override
     public List<String> getDesc_list_memory() {
         List <String> DescListMemory = new ArrayList<>();
+        DescListMemory.add(SystemInformationController.getInstance().getMotherBoardName());
+        DescListMemory.add(SystemInformationController.getInstance().getFullMemory());
+        DescListMemory.add(SystemInformationController.getInstance().getFreeMemory());
         return DescListMemory;
     }
 
@@ -65,6 +81,9 @@ public class ClassTestClass implements ListViewInterface {
     @Override
     public List<String> getDesc_list_graphic() {
         List <String> DescListGraphic = new ArrayList<>();
+    //    DescListGraphic.add(SystemInformationController.getInstance().getMotherBoardName());
+     //   DescListGraphic.add(SystemInformationController.getInstance().getFullMemory());
+      //  DescListGraphic.add(SystemInformationController.getInstance().getFreeMemory());
         return DescListGraphic;
     }
 

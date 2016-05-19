@@ -22,7 +22,7 @@
    <children>
       <TabPane prefHeight="554.0" prefWidth="792.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
-          <Tab text="Процесор">
+          <Tab styleClass="button-color" text="Процесор">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="625.0" prefWidth="686.0">
                      <children>
@@ -39,7 +39,7 @@
                   </AnchorPane>
             </content>
           </Tab>
-          <Tab text="Оперативна пам’ять">
+          <Tab styleClass="button-color" text="Оперативна пам’ять">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="466.0" prefWidth="686.0">
                      <children>
@@ -56,7 +56,7 @@
                   </AnchorPane>
             </content>
           </Tab>
-            <Tab text="Відеоадаптер">
+            <Tab styleClass="button-color" text="Відеоадаптер">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="110.0" prefWidth="955.0">
                      <children>
@@ -73,7 +73,7 @@
                   </AnchorPane>
                </content>
             </Tab>
-            <Tab text="Дискові накопичувачі">
+            <Tab styleClass="button-color" text="Дискові накопичувачі">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="176.0" prefWidth="955.0">
                      <children>
@@ -90,7 +90,7 @@
                   </AnchorPane>
                </content>
             </Tab>
-            <Tab text="Пристрої введ/вивед">
+            <Tab styleClass="button-color" text="Пристрої введ/вивед">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="317.0" prefWidth="710.0">
                      <children>
