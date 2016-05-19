@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 5/19/2016, 01:09:35
+      Time of this report: 5/19/2016, 08:15:55
              Machine name: DESKTOP-RBK501Q
          Operating System: Windows 10 Домашняя для одного языка 64-bit (10.0, Build 10586) (10586.th2_release_sec.160422-1850)
                  Language: Ukrainian (Regional Setting: Ukrainian)
@@ -11,7 +11,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz (4 CPUs), ~2.6GHz
                    Memory: 8192MB RAM
       Available OS Memory: 8086MB RAM
-                Page File: 5657MB used, 3708MB available
+                Page File: 4746MB used, 4619MB available
               Windows Dir: C:\Windows
           DirectX Version: 12
       DX Setup Parameters: Not found
@@ -324,7 +324,7 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 130.8 GB
+ Free Space: 129.9 GB
 Total Space: 173.5 GB
 File System: NTFS
       Model: WDC WD10JPVX-75JC3T0
@@ -1234,6 +1234,36 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
+Контейнер ошибки 129098085012, тип 5
+Имя события: RADAR_PRE_LEAK_64
+Отклик: Нет данных
+Идентификатор CAB: 0
+
+Сигнатура проблемы:
+P1: idea64.exe
+P2: 2016.1.2.0
+P3: 10.0.10586.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Вложенные файлы:
+C:\Users\vovaz\AppData\Local\Temp\RDR5A59.tmp\empty.txt
+C:\Users\vovaz\AppData\Local\Temp\WER5A5A.tmp.WERInternalMetadata.xml
+
+Эти файлы можно найти здесь:
+
+
+Символ анализа: 
+Повторный поиск решения: 0
+Идентификатор отчета: 1eb75758-1d7e-11e6-aab2-4cbb58ca9c18
+Состояние отчета: 0
+Хэшированный контейнер: 8d120a4aac6016e49d21c47b86a0c4b0
++++ WER1 +++:
 Контейнер ошибки 133325242972, тип 5
 Имя события: MoAppCrash
 Отклик: Нет данных
@@ -1262,7 +1292,7 @@ C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Microsoft.Micros_bbe
 Идентификатор отчета: d498b2c3-c679-422b-8e4c-c4830dbcef5d
 Состояние отчета: 0
 Хэшированный контейнер: 85d1b2454505ed45e64e88ca868d7058
-+++ WER1 +++:
++++ WER2 +++:
 Контейнер ошибки 129098075867, тип 5
 Имя события: RADAR_PRE_LEAK_WOW64
 Отклик: Нет данных
@@ -1292,7 +1322,7 @@ C:\Users\vovaz\AppData\Local\Temp\WERF30C.tmp.WERInternalMetadata.xml
 Идентификатор отчета: 6c7112bb-1d1a-11e6-aab1-4cbb58ca9c18
 Состояние отчета: 0
 Хэшированный контейнер: 3710a3c1801bb243acec0b75d3e739b2
-+++ WER2 +++:
++++ WER3 +++:
 Контейнер ошибки 124657962376, тип 5
 Имя события: CompatEntityAnalysis_1
 Отклик: Нет данных
@@ -1323,7 +1353,7 @@ C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_100_1e8a3fb953a29
 Идентификатор отчета: a09d203f-1d16-11e6-aab1-4cbb58ca9c18
 Состояние отчета: 8
 Хэшированный контейнер: 6a8e8e28f203551e6de337721329e79b
-+++ WER3 +++:
++++ WER4 +++:
 Контейнер ошибки 129085798122, тип 5
 Имя события: RADAR_PRE_LEAK_64
 Отклик: Нет данных
@@ -1353,7 +1383,7 @@ C:\Users\vovaz\AppData\Local\Temp\WERA12B.tmp.WERInternalMetadata.xml
 Идентификатор отчета: 62cd56ab-1d05-11e6-aab0-4cbb58ca9c18
 Состояние отчета: 0
 Хэшированный контейнер: da46d7b86c269f5b24fce1b41869b8bc
-+++ WER4 +++:
++++ WER5 +++:
 Контейнер ошибки 120448086418, тип 4
 Имя события: APPCRASH
 Отклик: Нет данных
@@ -1385,7 +1415,7 @@ C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_svchost.exe_3294ae5e
 Идентификатор отчета: e9009dd6-a621-470b-81fe-29e83b3ea595
 Состояние отчета: 0
 Хэшированный контейнер: c6bde43b426d1eb21fa3fe78ed4b7723
-+++ WER5 +++:
++++ WER6 +++:
 Контейнер ошибки 133253862219, тип 5
 Имя события: MoAppCrash
 Отклик: Нет данных
@@ -1414,7 +1444,7 @@ C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Microsoft.Micros_4a1
 Идентификатор отчета: 2b9b5602-a880-4ccc-89ae-22ef6d1845bc
 Состояние отчета: 0
 Хэшированный контейнер: 4f080907ea071fd9508c418aa4319f1e
-+++ WER6 +++:
++++ WER7 +++:
 Контейнер ошибки 133325242972, тип 5
 Имя события: MoAppCrash
 Отклик: Нет данных
@@ -1443,7 +1473,7 @@ C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Microsoft.Micros_bbe
 Идентификатор отчета: 8d426401-b479-4728-bcab-6a8fe359c857
 Состояние отчета: 0
 Хэшированный контейнер: 85d1b2454505ed45e64e88ca868d7058
-+++ WER7 +++:
++++ WER8 +++:
 Контейнер ошибки 133253867342, тип 5
 Имя события: MoAppCrash
 Отклик: Нет данных
@@ -1472,7 +1502,7 @@ C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Microsoft.Micros_997
 Идентификатор отчета: 5fc0e60b-8341-4aea-b811-90ab66caf8f8
 Состояние отчета: 0
 Хэшированный контейнер: fceb89cca0aa9f27437ba280eb9a57ea
-+++ WER8 +++:
++++ WER9 +++:
 Контейнер ошибки 125029939495, тип 5
 Имя события: MpTelemetry
 Отклик: Нет данных
@@ -1502,33 +1532,3 @@ C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_2152759308_5c629422
 Идентификатор отчета: 74aad829-1c47-11e6-aaaf-4cbb58ca9c18
 Состояние отчета: 0
 Хэшированный контейнер: ad9df2477f6046e0cfa9c1bf757cb318
-+++ WER9 +++:
-Контейнер ошибки , тип 0
-Имя события: MpTelemetry
-Отклик: Нет данных
-Идентификатор CAB: 0
-
-Сигнатура проблемы:
-P1: 2152759308
-P2: unspecified
-P3: ScanFile
-P4: 4.9.10586.0
-P5: Защитник Windows (77BDAF73-B396-481F-9042-AD358843EC24)
-P6: unspecified
-P7: unspecified
-P8: 
-P9: 
-P10: 
-
-Вложенные файлы:
-C:\Windows\Temp\MPInstrumentation\client_manifest.xml
-C:\Windows\Temp\WERF004.tmp.WERInternalMetadata.xml
-
-Эти файлы можно найти здесь:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_2152759308_5c629422facec594c34553e4437999e45c9fad2_00000000_cab_0a07f014
-
-Символ анализа: 
-Повторный поиск решения: 0
-Идентификатор отчета: 74aad829-1c47-11e6-aaaf-4cbb58ca9c18
-Состояние отчета: 4
-Хэшированный контейнер: 

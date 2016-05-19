@@ -1,5 +1,6 @@
 package mainForm;
 
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.Event;
@@ -9,6 +10,12 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+import service.SystemInformationController;
+
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
 
 
 public class Controller {
@@ -37,6 +44,8 @@ public class Controller {
     @FXML
     private Button button_Generation;
 
+    private boolean isRun = false;
+
     public void initialize(){
         AddData testClass = new AddData();
 
@@ -52,7 +61,32 @@ public class Controller {
         button_Generation.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
+                if (!isRun){
+                    button_Generation.setText("Обробка...");
+                    button_Generation.setDisable(true);
+                    isRun = true;
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            File file = SystemInformationController.getInstance().getFullDescriptionOfSystem();
+                            if (file != null){
+                                try {
+                                    Desktop.getDesktop().open(file);
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                            }
 
+                            Platform.runLater(new Runnable() {
+                                @Override public void run() {
+                                    isRun = false;
+                                    button_Generation.setText("Згенерувати повний опис системи");
+                                    button_Generation.setDisable(false);
+                                }
+                            });
+                        }
+                    }).start();
+                }
             }
         });
 

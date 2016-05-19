@@ -26,8 +26,6 @@ public class Main extends Application {
         SystemInformationController.getInstance();
         launch(args);
 
-        Controller controller = new Controller();
-        controller.initialize();
 
     }
 }
